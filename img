@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anime XYZ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="principal container">
+        <div class="container__caixa">
+            <h1 class="container__titulo">Anime XYZ: Uma Aventura Inesquecível</h1>
+            <img src="img/anime_xyz.jpg" alt="Imagem do Anime XYZ" class="container__imagem">
+            <a href="https://www.animexyz.com" class="container__botao">Assista Agora</a>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <img src="img/personagens.png" alt="Personagens do Anime XYZ" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Personagens Principais</h2>
+            <p class="descricao__texto">Conheça os heróis e vilões que trazem vida a esta emocionante história.</p>
+        </div>
+    </section>
+
+    <section class="container secundario">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Sinopse</h2>
+            <p class="descricao__texto">
+                Em um mundo mágico, um jovem lutador busca se tornar o mais forte, enfrentando desafios e formando laços
+                inesperados.
+            </p>
+            <a href="https://www.animexyz.com/sinopse" class="container__botao secundario__botao">Leia Mais</a>
+        </div>
+        <img src="img/sinopse.png" alt="Cena do Anime XYZ" class="secundario__imagem">
+    </section>
+
+    <section class="container secundario">
+        <img src="img/musica.png" alt="Música tema do Anime XYZ" class="secundario__imagem">
+        <div class="container__descricao">
+            <h2 class="descricao__titulo">Música Tema</h2>
+            <p class="descricao__texto">A trilha sonora envolvente que acompanha as aventuras dos personagens.</p>
+            <a href="https://www.animexyz.com/musica" class="container__botao">Ouça Agora</a>
+        </div>
+    </section>
+
+    <section class="rodape">
+        <img src="img/logo_anime.png" alt="Logo do Anime XYZ" class="rodape__logo">
+        <ul class="rodape__lista">
+            <li class="lista__link">
+                <a href="#">Sobre</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Episódios</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Personagens</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Notícias</a>
+            </li>
+            <li class="lista__link">
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+        <p class="rodape__texto">® 2024 Anime XYZ. Todos os direitos reservados.</p>
+    </section>
+</body>
+
+</html>
